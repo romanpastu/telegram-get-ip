@@ -1,7 +1,7 @@
 # telegram-get-ip
 Simple bot to get the external ip of the machine where it runs
 
-# How to run in docker
+# How to run using docker
 
 1. Build the image
 ``npm run docker_build``
