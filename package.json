@@ -1,0 +1,27 @@
+{
+  "name": "telegram-get-ip",
+  "version": "1.0.0",
+  "description": "Simple bot to get the external ip of the machine where it runs",
+  "main": "bot.js",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "forever": "^4.0.3",
+    "telegraf": "^4.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docker_build": "docker build . -t romancc/telegram-bot-ip:latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romanpastu/telegram-get-ip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romanpastu/telegram-get-ip/issues"
+  },
+  "homepage": "https://github.com/romanpastu/telegram-get-ip#readme"
+}
